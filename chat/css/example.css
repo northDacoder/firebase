@@ -51,7 +51,7 @@ em {
 /* Chat */
 
 #homeHeader { width: 100%; padding: 10px 0; color: rgba(0,0,0,.7); background-color: rgba(255,255,255,.2); box-shadow: 2px 2px 4px #333; border-radius: 3px; }
-#homeHeader:hover { color: white; }
+#homeHeader:hover { color: rgba(255,255,255,.6); }
 
 #messagesDiv {
     background-color: rgba(0,0,0,.5);
