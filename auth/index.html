@@ -1,0 +1,27 @@
+<html>
+<head>
+    <script src="https://cdn.firebase.com/js/client/1.0.6/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.js"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+    <script src="https://cdn.firebase.com/js/simple-login/1.3.0/firebase-simple-login.js"></script>
+
+</head>
+<body>
+
+<h1 id="homeHeader">GangsterChat.io</h1>
+<div id='messagesDiv'></div>
+<input type='text' id='nameInput' placeholder='Hoodname'>
+<input type='text' id='messageInput' placeholder='Spoken word...'>
+<script>
+
+    // FIREBASE CREDENTIALS 
+    // URI TO ACCESS CHITTY CHAT REST 
+    // https://chittychat.firebaseio.com/ 
+
+
+    // var messagesRef = new Firebase('https://ket7jzfwha0.firebaseio-demo.com/');
+    var auth = new Firebase('https://chittychat.firebaseio.com/');
+
+</script>
+</body>
+</html>
